@@ -25,7 +25,7 @@ Example template for its prompt:
 
 Coming soon
 
-### Generative Remove
+### Generative Delete
 
 Coming soon
 
