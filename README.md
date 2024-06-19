@@ -4,7 +4,39 @@ Recurring patterns to manage memories in Large Language Models (LLMs)
 
 ## Introduction
 
-This document outlines essential patterns for managing the memory of LLMs. Manual Patterns require a human in the loop to manage memories, whereas Generative Patterns require a well-engineered prompt so that an LLM can manage its own memory store. These patterns are critical for ensuring that the information stored within a memory store is accurate, relevant, and optimized for machine processing, not just human understanding.
+This document outlines essential and recurring patterns for managing the memory of LLMs. 
+
+Manual Patterns require a human in the loop to manage memories, whereas Generative Patterns require a well-engineered prompt so that an LLM can manage its own memory store. These patterns are critical for ensuring that the information stored within a memory store is accurate, relevant, and optimized for machine processing, not just human understanding. You can also chain these patterns together, such as by applying the Generative Create pattern followed by a Manual Edit to let the LLM create the initial memory and then refine it as the human in the loop.
+
+## Generative Patterns
+
+These patterns involve LLM inferences from well-engineered prompts that are created by a human in the loop or another LLM inference. Designed to partially automate memory engineering, these patterns ensure that the LLM operates efficiently and maintains high standards of memory integrity. 
+
+### Generative Create
+
+You engineer a prompt to task an LLM with creating one or more new memories from the current prompt and/or conversation history. 
+
+Example template for its prompt:
+
+> You are an expert memory engineer who is managing your own memory store as an LLM. Your current task is to create a new memory or set of new memories based on the prompt provided below by the human in the loop:
+
+
+### Generative Edit
+
+Coming soon
+
+### Generative Remove
+
+Coming soon
+
+### Generative Approval
+
+Coming soon
+
+### Generative Summary
+
+Coming soon
+
 
 ## Manual Patterns
 
